@@ -18,8 +18,10 @@ export default function App() {
     repository.likes++;
     setRepositories([...repositories]);
     // other way
-    // const repositories = repositories.map( respository => repository.id === id ? response.data : respository);
-    // setRepositories([...repositories]);
+    // const newRepositories = repositories.map((repository) =>
+    //   repository.id === id ? response.data : repository
+    // );
+    // setRepositories([...newRepositories]);
   }
 
   useEffect(() => {
